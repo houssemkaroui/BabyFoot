@@ -1,0 +1,252 @@
+/* body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  header input {
+    width: 60%;
+    padding: 10px;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: #0056b3;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section {
+    width: 48%;
+  }
+  
+  #gamesSection {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #games .game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #games .game.finished {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  #games .game button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  #gameCounter {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  #chatSection {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #messageInput {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  #chatSection button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #chatSection button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  header input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: #0056b3;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section {
+    width: 48%;
+  }
+  
+  #gamesSection {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  #gamesSection h2 {
+    margin-top: 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  #games .game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #games .game.finished {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  #games .game button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  #gameCounter {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  #chatSection {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  #chatSection h2 {
+    margin-top: 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  #nickname {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  #messageInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #chatSection button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #chatSection button:hover {
+    background-color: #0056b3;
+  }
+  
