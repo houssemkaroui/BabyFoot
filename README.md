@@ -6,7 +6,7 @@
 2. Installez les dépendances : `npm install`
 3. Configurez votre base de données PostgreSQL dans `db.js`.
 4. Créez la base de données et les tables nécessaires dans PostgreSQL :
-
+5. Accédez à ` http://localhost:3000/`
 
 # Démarrez le service PostgreSQL
 sudo service postgresql start
@@ -48,3 +48,4 @@ CREATE TABLE  IF NOT EXISTS games (
   status VARCHAR(50) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
