@@ -2,11 +2,10 @@
 
 ## Installation
 
-1. Clonez le dépôt : `git clone <URL>`
-2. Accédez au répertoire : `cd BabyFootManager`
-3. Installez les dépendances : `npm install`
-4. Configurez votre base de données PostgreSQL dans `db.js`.
-5. Créez la base de données et les tables nécessaires dans PostgreSQL :
+1. Accédez au répertoire : `cd BabyFootManager`
+2. Installez les dépendances : `npm install`
+3. Configurez votre base de données PostgreSQL dans `db.js`.
+4. Créez la base de données et les tables nécessaires dans PostgreSQL :
 
 
 # Démarrez le service PostgreSQL
@@ -30,23 +29,20 @@ GRANT ALL PRIVILEGES ON DATABASE babyfoot TO myuser;
 # Modifiez la configuration de pg_hba.conf
 sudo nano /etc/postgresql/14/main/pg_hba.conf
 
-# Modifiez les lignes appropriées comme indiqué ci-dessus
-
 # Redémarrez le service PostgreSQL
 sudo service postgresql restart
 
-# Quittez l'utilisateur postgres
-exit
+
 
 ```sql
 -- Créez la base de données
-CREATE DATABASE babyfoot;
+CREATE DATABASE IF NOT EXISTS babyfoot;
 
 -- Connectez-vous à la base de données
 \c babyfoot
 
 -- Créez la table games
-CREATE TABLE games (
+CREATE TABLE  IF NOT EXISTS games (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   status VARCHAR(50) NOT NULL,
