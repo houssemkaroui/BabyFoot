@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Accédez au répertoire : `cd BabyFootManager`
+1. Accédez au répertoire : `cd BabyFoot`
 2. Installez les dépendances : `npm install`
 3. Configurez votre base de données PostgreSQL dans `db.js`.
 4. Créez la base de données et les tables nécessaires dans PostgreSQL :
@@ -33,7 +33,7 @@ sudo nano /etc/postgresql/14/main/pg_hba.conf
 sudo service postgresql restart
 
 
-
+# Création de base et de table
 ```sql
 -- Créez la base de données
 CREATE DATABASE IF NOT EXISTS babyfoot;
